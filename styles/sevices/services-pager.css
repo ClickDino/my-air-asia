@@ -1,0 +1,13 @@
+.paginator {
+    font-weight: 700;
+}
+
+.paginator--theme--red .paginator__item--active {
+    background: #f5170e;
+    color: #fff;
+}
+.paginator--theme--red .paginator__item:hover {
+    transition: 1s;
+    background: #f5170e;
+    color: #fff;
+}

@@ -1,0 +1,17 @@
+.header {
+padding-top: 27px;
+width: 1141px;
+margin-bottom: 20px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.header__menu {
+  display: flex;
+  align-items:center ;
+  
+}
+.header__contacts {
+  justify-content: flex-end;
+}

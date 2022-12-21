@@ -1,0 +1,30 @@
+@import url(../layout/normalize.css);
+
+@import url(../styles/home/base.css);
+@import url(../styles/home/button.css);
+@import url(../styles/home/hero.css);
+@import url(../styles/home/header.css);
+@import url(../styles/home/logo.css);
+@import url(../styles/home/nav.css);
+@import url(../styles/home/dropdown.css);
+@import url(../styles/home/contacts.css);
+@import url(../styles/home/offers.css);
+@import url(../styles/home/news.css);
+@import url(../styles/home/paginator.css);
+@import url(../styles/home/about.css);
+@import url(../styles/home/footer.css);
+@import url(../styles/home/social.css);
+
+@import url(../styles/sevices/top-line.css);
+@import url(../styles/sevices/serv-breadcrumbs.css);
+@import url(../styles/sevices/services-content.css);
+@import url(../styles/sevices/services-pager.css);
+@import url(../styles/sevices/serv-partners.css);
+@import url(../styles/sevices/serv-footer.css);
+
+@import url(../styles/reviews/reviews-page.css);
+@import url(../styles/reviews/rectangle.css);
+@import url(../styles/reviews/form.css);
+
+@import url(../styles/start/start.css);
+@import url(../styles/start/animate.css);

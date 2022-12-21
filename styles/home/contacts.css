@@ -1,0 +1,18 @@
+.contacts {
+    top: 48px;
+    right: 0;
+    text-align: right;
+    font-style: normal;
+  }
+  .contacts__phone {
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 35px;
+    margin-bottom: 4px;
+  }
+  .contacts__info {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    cursor: pointer;
+  }

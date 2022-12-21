@@ -1,0 +1,76 @@
+/* .inner-section--bg--grey {
+    background: #F4F5F5 center center;
+} */
+.form__row {
+    display: flex;
+    margin-bottom: 30px;
+}
+.form__input {
+    flex: 1;
+    margin-right: 30px;
+    border-radius: 4px;
+    border: none;
+    background: #fff;
+    padding: 20px 30px;
+    font-size: 18px;
+    color: #1A1B1E;
+}
+.form__input:last-child {
+    margin-right: 0;
+}
+.form__input::placeholder {
+    color: #666;
+}
+.form__controls {
+    display: flex;
+    margin-bottom: 35px;
+
+}
+.form__controls-title {
+    width: 36%;
+}
+.controls {
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+}
+.controls__item {
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.controls__elem {
+    cursor: pointer;
+}
+.controls__checkbox {
+    display: none;
+}
+.tag--bg--grey {
+    font-size: 13px;
+    color: #303030;
+    padding: 9px 18px;
+    border-radius: 50px;
+    background: #E7E7E7;
+}
+/* .tag--bg--grey:hover{
+} */
+.controls__checkbox:checked ~ .tag--bg--grey {
+    background: #B9EAE4;
+}
+.button.button--grey {
+    background: #8E8E8E;
+    color:  #fff;
+    border: none;
+}
+.button.button--grey:hover {
+    background: #2B2B2B;
+}
+.form__btns {
+    display: flex;
+    justify-content: flex-end;
+}
+.form__btn {
+    margin-right: 20px;
+}
+.form__btn:last-child {
+    margin-right: 0;
+}

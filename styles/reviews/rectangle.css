@@ -1,0 +1,16 @@
+.rectangle {
+    min-height: 363px;
+    background: url(../../img/img-rewiew/rectangle.png)center center no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    }
+
+.rectangle__content {
+    max-width: 53%;
+}
+.rectangle__title {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 1.1;
+}

@@ -1,0 +1,22 @@
+.menu {
+    display: flex;
+    justify-content: space-between;
+    left: 250px;
+}
+.menu__item {
+    display: inline-block;
+    margin-right: 54px;
+}
+.menu__item--active .menu__link {
+    color: #da0100;
+}
+.menu__item:hover {
+    color: #da0100;
+    transition: 1s;
+}
+.menu__item:last-child {
+    margin-right: 0;
+}
+.menu__link {
+    font-size: 14px;
+}

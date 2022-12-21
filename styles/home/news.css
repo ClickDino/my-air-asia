@@ -1,0 +1,36 @@
+.section
+.news__section {
+  width: 1139px;
+  height: 600px;
+}
+.news__list {
+  display: flex;
+  justify-content: space-between;
+}
+.news__item {
+  /* width: 553px; */
+  height: 394px;
+  margin-right: 1%;
+  flex: 1;
+}
+.single-news {
+  border-radius: 4px;
+  position: relative;
+  overflow: hidden;
+}
+.single-news:last-child {
+  margin-right: 0;
+}
+.single-news__text-content {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 30px 40px;
+  min-height: 140px;
+}
+.single-news__title {
+  font-style: normal;
+  font-weight: 700;
+}
+

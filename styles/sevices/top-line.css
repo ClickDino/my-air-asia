@@ -1,0 +1,18 @@
+.top-line {
+   min-height: 412px;
+   background: url(../../img/img-services/servisec_hero.png)center center no-repeat;
+   display: flex;
+   flex-direction: column;
+   padding-bottom: 24px;                                         ;
+}
+.top-line__container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.page-title {
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 1;
+}

@@ -1,0 +1,30 @@
+.button {
+    cursor: pointer;
+    display: inline-block;
+    background: #fff;
+    border-radius: 35px;
+    text-align: center;
+    padding: 18px 0;
+    width: 135px;
+    text-transform: uppercase;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 19px;
+    color: #f5170e;
+    border: 1px solid #f5170e;
+}
+.button:hover {
+    background: #f5170e;
+    color: #fff;
+    transition: 1s;
+}
+.button.button--red {
+    background: #f5170e;
+    color:  #fff;
+    border: none;
+}
+.button.button--red:hover {
+    opacity: 0.5;
+    transition: 1s;
+}

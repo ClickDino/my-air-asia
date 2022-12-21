@@ -1,0 +1,84 @@
+html {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  line-height: 1.42;
+}
+body,
+html {
+  height: 100%;
+  color: #fff;
+}
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  margin: 0;
+}
+
+.main-page-wrapper {
+  background: url(../../img/elephant.png) center top no-repeat, url(../../img/fon.png) center center no-repeat,
+    url(../../img/sunset.png) center bottom 152px no-repeat;
+}
+
+* {
+  box-sizing: border-box;
+}
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  /* display: flex; */
+  /* justify-content: space-between; */
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: normal;
+  margin: 0;
+}
+p {
+  margin: 0;
+  padding: 0;
+}
+a {
+  color: inherit;
+  cursor: pointer;
+  text-decoration: none;
+  display: block;
+}
+/* a:hover {
+    color: #da0100;
+} */
+img {
+  display: block;
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+}
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  min-width: 100%;
+  min-height: 100%;
+}
+/* .wrapper__content {
+  flex: 1;
+} */
+.container {
+  margin: 0 auto;
+  width: 100%;
+  height: 100%;
+  max-width: 1140px;
+}
+
+.section__title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 49px;
+  margin-bottom: 51px;
+  position: relative;
+}

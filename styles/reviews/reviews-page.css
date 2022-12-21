@@ -1,0 +1,77 @@
+.reviews {
+    column-count: 2;
+    column-gap: 30px;
+}
+.review {
+    display: inline-flex;
+    flex-direction: column;
+    padding: 50px 30px;
+    background: #F4F5F5;
+
+}
+.reviews__item {
+    margin-bottom: 27px;
+}
+.avatar {
+    height: 142px;
+    width: 142px;
+    margin-right: 22px;
+}
+.review__header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 55px;
+}
+.review__user {
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: #2E77A4;
+    margin-bottom: 3px;
+}
+.review__user:hover {
+    text-decoration-line:underline ;
+}
+.review__user:after {
+    content: url(../../img/img-rewiew/vk_logo.png);
+    height: 29px;
+    margin-left: 7px;
+}
+.review__name {
+    /* display: flex; */
+    align-items: center;
+}
+.review__tags {
+    line-height: 18px;
+    display: flex;
+    text-align: center;
+    flex-wrap: nowrap;
+    border: none;
+}
+.tag {
+    font-size: 13px;
+    color: #303030;
+    padding: 9px 18px;
+    border-radius: 50px;
+    background: #B9EAE4;
+}
+
+/* .review__tags:hover {
+    opacity: 0.5;
+} */
+.review__title {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 42px;
+    margin-bottom: 13px;
+}
+.review__desc {
+    margin-bottom: 48px;
+    color: #818181;
+}
+.review__date {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 27px;
+}
